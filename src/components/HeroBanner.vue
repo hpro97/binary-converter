@@ -4,7 +4,7 @@ import { ref } from 'vue';
 
 <template>
   <div class="bg-image d-flex justify-content-center align-items-center"  
-       style="background-image: url('../../public/banner.png'); background-size: 100% 100%; background-repeat: no-repeat; height: 12rem; width: 100%;">
+       style="background-image: url('../../public/banner.png'); background-size: 100% 115%; background-repeat: no-repeat; height: 11rem; width: 100%;">
   </div>
 </template>
 
