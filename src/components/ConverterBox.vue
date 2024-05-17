@@ -5,7 +5,8 @@ import { decimalValue, binaryValue, convertDecimalToBinary, convertBinaryToDecim
 </script>
 
 <template>
-  <form class="p-4 m-3 bg-dark text-white rounded-3">
+  <div class="row justify-content-center p-2 m-1 pt-2">
+  <form class="p-3 bg-dark text-white rounded-3" style="width: 100%; max-width: 70rem;">
  <div class="mb-3">
    <label for="decimal" class="form-label">Decimal Input</label>
    <input type="text" class="form-control" id="decimalInput" maxlength="16" placeholder="Please input a number below 16 digits"aria-describedby="decimalHelp" v-model="decimalValue" @input="convertDecimalToBinary">
@@ -17,6 +18,7 @@ import { decimalValue, binaryValue, convertDecimalToBinary, convertBinaryToDecim
    <div id="BinaryHelp" class="form-text text-white">Input a binary number here. I.E: 1001, 1001101001, 1001010, etc.</div>
  </div>
 </form>
+</div>
 </template>
 
 <style scoped>
