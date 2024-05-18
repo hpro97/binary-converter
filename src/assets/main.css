@@ -3,3 +3,33 @@
 body{
    background-color:#345241de;
 }
+
+@media screen and (min-width: 0px) {
+   #banner {
+      height:8rem;
+   }
+ }
+
+@media screen and (min-width: 500px) {
+   #banner {
+      height: 12rem;
+   }
+ }
+
+@media screen and (min-width: 800px) {
+   #banner {
+      height: 16rem;
+   }
+ }
+
+ @media screen and (min-width: 1080px) {
+   #banner {
+      height: 20rem;
+   }
+ }
+
+ @media screen and (min-width: 1600px) {
+   #banner {
+      height: 30rem;
+   }
+ }

@@ -7,15 +7,14 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-<Header />
-<HeroBanner />
-<ConverterBox />
-<AboutBinary />
-<Footer />
+   <Header />
+   <HeroBanner />
+   <ConverterBox />
+   <AboutBinary />
+   <Footer />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <!-- call sections replacing content of template -->
 
@@ -23,7 +22,6 @@ import Footer from "./components/Footer.vue";
 
    short:
 
-rebuild banner with appropriate sizing
 logo and links for nav
 icons, logo and links in footer
 
@@ -34,6 +32,5 @@ routing with links for nav to home and contact
    long:
    
 build contact page with contact form
-correct binary and decimal js logic for large numbers
 
 -->
