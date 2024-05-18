@@ -4,7 +4,7 @@ export const randomBinaryCode = ref(generateRandomBinaryCode());
 
 function generateRandomBinaryCode() {
   let code = '1';
-  for (let i = 0; i < 123; i++) {
+  for (let i = 0; i < 15; i++) {
     code += Math.round(Math.random());
   }
   return code;

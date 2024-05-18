@@ -2,8 +2,7 @@
 import Header from "./components/Header.vue";
 import HeroBanner from "./components/HeroBanner.vue";
 import ConverterBox from "./components/ConverterBox.vue";
-import AboutBinaryLeft from "./components/AboutBinary.vue";
-import InstructionsBinaryRight from "./components/InstructionsBinaryRight.vue";
+import AboutBinary from "./components/AboutBinary.vue";
 import Footer from "./components/Footer.vue";
 </script>
 
@@ -11,8 +10,7 @@ import Footer from "./components/Footer.vue";
 <Header />
 <HeroBanner />
 <ConverterBox />
-<AboutBinaryLeft />
-<InstructionsBinaryRight />
+<AboutBinary />
 <Footer />
 </template>
 
@@ -28,7 +26,6 @@ import Footer from "./components/Footer.vue";
 rebuild banner with appropriate sizing
 logo and links for nav
 icons, logo and links in footer
-card links for buttons in about binary
 
    mid:
 
